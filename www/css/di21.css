@@ -1,0 +1,251 @@
+body {
+    background-color:rgb(158, 224, 219);
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Estilo de Contacto*/
+
+.form-horizontal .control-label
+
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+
+h1 {
+    color: #53555c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+div {
+    display: block;
+    margin-top: 0em;
+}
+
+#msg{
+    width: 100%;
+    height: 100px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    cursor: default;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input{
+    font-family: inherit;
+    font: inherit;
+    margin: 0;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+  
+  /* FIN Estilo de Contacto*/
+
+
+.inputRed{
+    background-color: #f2dede !important;
+    border-color: red !important;
+}
+
+.container-table{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333;
+
+    position: relative;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Editar*/
+.title_edit{
+    position: absolute;
+    right: 7%;
+    color: white;
+    text-decoration: none;
+    font-size: .7em;
+}
+
+.title_edit:hover{
+    text-decoration: underline;
+}
+
+.container{
+  width: 100%;
+  padding-right: padding-x;
+  padding-left: padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.form-control{
+    border-radius: 12px;
+    height: 42px;
+    font-size: 1em;
+    color: #999;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*COMIENZA Estilo de select*/
+.content-input input,
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+/* Eliminamos la fecha que por defecto aparece en el desplegable */
+.content-select select::-ms-expand {
+    display: none;
+}
+.content-select{
+	max-width: 250px;
+	position: relative;
+}
+ 
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 7px 10px;
+  	height: 42px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #ffffff;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+.content-select select:hover{
+	background: #ffffff;
+}
+ 
+/* 
+Creamos la fecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid #666e6a;
+	border-bottom:4px solid #666e6a;
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+}
+
+/*FINALIZA Estilo de select*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	} 
+	#cabecera {
+		
+	background: #e7f7f6;
+	border: 2px solid #c3f5ea;
+	padding: 10px;
+	display:flex;
+	align-items:center;
+	}
+	.logo{
+	width: 200px;
+	height: 200px;
+	margin: none;	
+	}
+	#titulo{
+		display: inline-block;
+		text-align: center;
+		width: calc(100% - 228px);
+}
+
+
+	/* ESTILO CAJAS REDONDEADAS DE TÍTULOS*/
+.box-blue{
+	margin:0 0 25px;
+	overflow:hidden;
+	padding:20px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+	
+.box-blue {
+	background-color:#37637a;
+	border:1px solid #afcde3;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+.row{
+	align-content: center;
+}
